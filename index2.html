@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>My page title</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css"> 
+
+    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+	<style>
+.perspective--100 {
+perspective: 100px;
+-webkit-perspective: 100px;
+-ms-perspective: 100px;
+}
+.otcrytka {
+display: block;
+text-align: center;
+width: 50px;
+height: 50px;
+color: #fff;
+background-color: rgb(55,124,255);
+font-size: 20px;
+line-height: 250px;
+background-image: url(Мельник.jpg);
+border-radius: 7px;
+box-shadow: inset 0 0 0 3px #705E5F;
+-webkit-transition: transform 3s;
+-ms-transition: transform 3s;
+transition: transform 3s;
+
+}
+
+.otcrytka:hover {
+-webkit-transform: rotateY(180deg);
+-ms-transform: rotateY(180deg);
+transform: rotateY(180deg);
+}
+
+</style>
+	
+  </head>
+
+  <body>
+    <!-- Here is our main header that is used across all the pages of our website -->
+
+    <header>
+      <marquee behavior="scroll" direction="left"><h1>ФОТОГРАФИИ ТИМУРА</h1></marquee>
+	  <img src="Мельник.jpg">
+    </header>
+	
+	  <nav>
+	  <div class="perspective">
+<span class="otcrytka">
+
+</span>
+    </div>
+	 
+      <ul>
+	   
+        <li><a href="index.html"><i>Головна</i></a></li>
+        <li><a href="index2.html"><i>Фото</i></a></li>
+        <li><a href="index3.html"><i>Видео</i></a></li>
+        <li><a href="index4.html"><i>Аудио</i></a></li>
+      </ul>
+
+      <!-- A Search form is another common non-linear way to navigate through a website. -->
+    </nav>
+
+    <!-- Here is our page's main content -->
+    <main>
+
+      <!-- It contains an article -->
+      <article>
+        <h5 id="part1"><ins>здесь фото тимура
+
+        <img src="1.jpg" alt="фотоidth="500" height="300">
+
+
+        <h3 id="part2"><ins> </ins>
+
+        <p><i> </i></p></h3>
+
+        <h4 id="part3"><ins></ins>
+
+        <p><i> </i></p></h4>
+
+        <h6 id="part4"><ins></ins>
+		
+		<p><i> </i></p></h6>
+		
+		<h7 id="part5"><ins> </ins>
+		
+		<p><i> </i></p></h7>
+		
+      </article>
+
+      <!-- the aside content can also be nested within the main content -->
+      <aside>
+        <h2>перегляд за публікаціями</h2>
+
+        <ul>
+          <li><a href="#part1">пока не доступно</a></li>
+          <li><a href="#part2">пока не доступно</a></li>
+          <li><a href="#part3">пока не доступно</a></li>
+          <li><a href="#part4">пока не доступно</a></li>
+          <li><a href="#part5">пока не доступно</a></li>
+        </ul>
+      </aside>
+
+    </main>
+
+    <!-- And here is our main footer that is used across all the pages of our website -->
+
+    <footer>
+      <p>©сайт сделал Кирилл Мельник</p>
+    </footer>
+
+  </body>
+</html>
